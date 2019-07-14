@@ -3,7 +3,7 @@
 # run: docker run --name PostgreSQLcnFt -p 5432:5432 chenxinaz/zhparser
 # run interactive: winpty docker run -it --name PostgreSQLcnFt -p 5432:5432 chenxinaz/zhparser --entrypoint bash chenxinaz/zhparser
 
-FROM postgres
+FROM postgres:10
 
 ARG CN_MIRROR=0
 
